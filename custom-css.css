@@ -3,11 +3,12 @@
 .chat-wrapper {
   font-size: 11pt;
   font-family: 'Libre Franklin', sans-serif;
+  font-weight: light;
 }
 
 .chat-container {
     overflow-y: scroll;
-    background-color: #0a0a0a;
+    background-color: #000000;
 }
 
 .chat-line-mod-button {
@@ -29,5 +30,5 @@
 }
 
 .chat-line-username {
-  font-weight: bold;
+  font-size: 12pt;
 }
