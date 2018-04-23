@@ -8,11 +8,11 @@
 
 .chat-container {
     overflow-y: scroll;
-    background-color: #14032b !important;
+    background-color: #05000c !important;
 }
 
 .chat-input-box {
-  height: 40px !important;
+  height: 65px !important;
   color: #05000c !important;
 }
 
