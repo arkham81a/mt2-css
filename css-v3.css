@@ -8,7 +8,7 @@
 
 .chat-container {
     overflow-y: scroll;
-    background-color: #0E0C13;
+    background-color: #290556;
 }
 
 .chat-line-mod-button {
@@ -52,11 +52,6 @@
 	display: block !important;
 	animation: 300ms chat-paused-indicator-hide;
 	bottom: -25px;
-}
-
-.chat-line-badge {
-	width: 14px;
-	height: 14px;
 }
 
 @keyframes chat-paused-indicator-show {
