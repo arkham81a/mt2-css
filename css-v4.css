@@ -6,13 +6,6 @@
   font-weight: light;
 }
 
-.chat-line:nth-of-type(even) {
-	background-color: #07010c !important;
-}
-.chat-line:nth-of-type(odd) {
-	background-color: #1a032d !important;
-}
-
 .emote-menu-button {
   bottom: 0px !important;
 }
@@ -20,6 +13,13 @@
 .chat-input-box {
   height: 65px !important;
   color: #07010c !important;
+}
+
+.chat-line:nth-of-type(even) {
+	background-color: #07010c !important;
+}
+.chat-line:nth-of-type(odd) {
+	background-color: #1a032d !important;
 }
 
 .chat-line-mod-button {
