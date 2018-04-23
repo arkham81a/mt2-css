@@ -11,6 +11,10 @@
     background-color: #05000c !important;
 }
 
+.emote-menu-button {
+  bottom: 0px !important;
+}
+
 .chat-input-box {
   height: 65px !important;
   color: #05000c !important;
