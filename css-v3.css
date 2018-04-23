@@ -15,20 +15,6 @@
     display: none !important;
 }
 
-.mod-card button.md-button.mod-card-mod-button {
-  margin: 0 !important;
-  padding: 6.5px !important;
-}
-
-.mod-card button.md-button.mod-card-mod-button img {
-  height: 32px;
-  transform: none;
-}
-
-.md-button {
-  padding: 0 !important;
-}
-
 .chat-line-username {
   font-size: 12pt;
 }
