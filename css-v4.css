@@ -17,11 +17,6 @@
 
 .chat-input-box {
   height: 65px !important;
-  color: #05000c !important;
-}
-
-.chat-input-box textarea {
-	color: #0c0014 !important;
 }
 
 .chat-line-mod-button {
