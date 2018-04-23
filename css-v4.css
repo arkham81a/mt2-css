@@ -16,10 +16,10 @@
 }
 
 .chat-line:nth-of-type(even) {
-	background-color: #07010c !important;
+	background-color: #0f0511 !important;
 }
 .chat-line:nth-of-type(odd) {
-	background-color: #1a032d !important;
+	background-color: #260d2d !important;
 }
 
 .chat-line-mod-button {
