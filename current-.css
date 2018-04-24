@@ -33,7 +33,6 @@
     display: none !important;
 }
 
-//Alca's Fancy Paused Indicator
 .chat-paused-indicator {
 	animation: 300ms chat-paused-indicator-show;
 	overflow: hidden;
