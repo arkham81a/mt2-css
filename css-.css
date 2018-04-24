@@ -11,7 +11,8 @@
 }
 
 .chat-container {
-    background-color: #240126 !important;
+    background-color: #160019 !important;
+	opacity: 0.6;
 }
 
 .emote-menu-button {
@@ -23,10 +24,10 @@
 }
 
 .chat-line:nth-of-type(even) {
-	background-color: #240126 !important;
+	background-color: #160019 !important;
 }
 .chat-line:nth-of-type(odd) {
-	background-color: #180119 !important;
+	background-color: #190015 !important;
 }
 
 .chat-line-username {
