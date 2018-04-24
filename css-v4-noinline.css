@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
 .chat-wrapper {
-  font-size: 12.5pt;
+  font-size: 11pt;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: light;
 }
@@ -16,22 +16,23 @@
 
 .chat-line:nth-of-type(even) {
     background-color: #232121 !important;
-    opacity: 0.6;
+    opacity: 0.25;
 }
 .chat-line:nth-of-type(odd) {
     background-color: #111111 !important;
-    opacity: 0.6;
+    opacity: 0.25;
 }
+
 .chat-container {
-    background-image: color(#360538);
-  
+    background: color(#360538);
+}
 
 .chat-line-mod-button {
     display: none !important;
 }
 
 .chat-line-username {
-  font-size: 13pt;
+  font-size: 12.5pt;
 }
 
 .chat-paused-indicator {
