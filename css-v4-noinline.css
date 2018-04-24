@@ -24,7 +24,7 @@
 }
 
 .chat-container {
-    background: color(#360538);
+    background-color: #360538 !important;
 }
 
 .chat-line-mod-button {
@@ -32,7 +32,7 @@
 }
 
 .chat-line-username {
-  font-size: 12.5pt;
+  font-size: 11.5pt !important;
 }
 
 .chat-paused-indicator {
