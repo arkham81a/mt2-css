@@ -11,22 +11,18 @@
 }
 
 .chat-container {
-    background-color: #160019 !important;
+    background-color: #09000c !important;
 }
 
 .emote-menu-button {
   bottom: 0px !important;
 }
 
-.chat-input-box {
-  height: 65px;
-}
-
 .chat-line:nth-of-type(even) {
-	background-color: #160019 !important;
+	background-color: #09000c !important;
 }
 .chat-line:nth-of-type(odd) {
-	background-color: #190015 !important;
+	background-color: #010002 !important;
 }
 
 .chat-line-username {
