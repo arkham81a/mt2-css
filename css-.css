@@ -19,7 +19,7 @@
 }
 
 .chat-input-box {
-  height: 65px !important;
+  height: 65px;
 }
 
 .chat-line:nth-of-type(even) {
