@@ -13,8 +13,8 @@
 	background-color: #010002 !important;
 }
 
-.chat-input-box {
-  Color: #010002 !important;
+.chat-line-wrapper.chat-line-deleted .chat-line-text{
+    text-decoration: none;
 }
 
 .chat-container {
@@ -26,7 +26,7 @@
 }
 
 .chat-line-username {
-  font-size: 11.25pt;
+  font-size: 11pt;
 }
 
 .chat-line-mod-button {
