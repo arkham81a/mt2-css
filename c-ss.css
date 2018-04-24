@@ -1,23 +1,14 @@
+//Custom Font - Preview it here: https://fonts.google.com/specimen/Libre+Franklin
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
+//Chat Font/Recoloring
 .chat-wrapper {
   font-size: 10.5pt;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: light;
 }
 
-.chat-line-mod-button {
-    display: none !important;
-}
-
-.chat-container {
-    background-color: #09000c !important;
-}
-
-.emote-menu-button {
-  bottom: 0px !important;
-}
-
+//Color Alternating lines
 .chat-line:nth-of-type(even) {
 	background-color: #09000c !important;
 }
@@ -25,10 +16,30 @@
 	background-color: #010002 !important;
 }
 
-.chat-line-username {
-  font-size: 11.25pt;
+.chat-input-box {
+  Color: #010002 !important;
 }
 
+.chat-container {
+    background-color: #09000c !important;
+}
+
+//Move Emote Menu Icon to the bottom of Chat-Box
+.emote-menu-button {
+  bottom: 0px !important;
+}
+
+.chat-line-username {
+  font-size: 11.25pt;
+  style: bold !important;
+}
+
+//Hide In-Line Mod Icons
+.chat-line-mod-button {
+    display: none !important;
+}
+
+//Alca's Fancy Paused Indicator
 .chat-paused-indicator {
 	animation: 300ms chat-paused-indicator-show;
 	overflow: hidden;
