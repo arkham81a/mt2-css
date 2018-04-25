@@ -17,6 +17,10 @@
     text-decoration: none;
 }
 
+.chat-line-wrapper.chat-line-deleted .chat-line-text{
+    text-decoration: none !important;
+}
+
 .chat-container {
     background-color: #09000c !important;
 }
