@@ -37,6 +37,17 @@
     display: none !important;
 }
 
+.chat-line-wrapper.mention { background-color: transparent; } 
+
+.chat-line-wrapper.mention .chat-line-text { 
+    background-color: rgba(255, 0, 0, 0.3)!important;
+    border: solid thin;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: rgba(255, 255, 255, 0.2)!important;
+}
+
 .chat-paused-indicator {
 	animation: 300ms chat-paused-indicator-show;
 	overflow: hidden;
