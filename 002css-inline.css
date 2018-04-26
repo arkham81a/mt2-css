@@ -6,6 +6,40 @@
   font-weight: light;
 }
 
+body.theme-dark .emote-menu {
+	padding: 0;
+	background-color: hsla(0, 0%, 25%, 0.95);
+	height: 60%;
+	width: auto;
+	left: 10px;
+	right: 10px;
+	bottom: calc(4em + 10px);
+}
+
+.emote-search {
+	position: relative;
+	top: 18px;
+}
+
+.emote-menu-list {
+	background-color: hsla(0, 0%, 16%, 0.6);
+	padding: 4px;
+}
+
+.emote-menu-list > div {
+	min-width: 28px;
+	max-width: 56px;
+	padding: 2px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lm_splitter {
+	z-index: 61 !important;
+}
+
 .chat-line:nth-of-type(even) {
 	background-color: #09000c !important;
 }
