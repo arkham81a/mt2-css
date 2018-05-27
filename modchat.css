@@ -57,9 +57,10 @@ body.theme-dark .chat-container .chat-line-mod-button-label:hover {
 .chat-line-wrapper img.emote {
 	/*max-height: 100%;*/
 }
+
 .emote-menu-button {
 	right: 21px !important;
-	bottom: 60px !important;
+	bottom: 0px !important;
 }
 
 .emote-menu-button .md-button.md-icon-button md-icon.md-dark-theme {
