@@ -1,7 +1,6 @@
 .chat-wrapper {
 	font-family: sans-serif !important;
 	font-size: 12px;
-	background: #0e0c13!important;
 }
 
 .chat-line-wrapper {
@@ -27,6 +26,7 @@
 
 .chat-line-username {
 	font-weight: 700;
+	-webkit-text-stroke: 1px black;
 }
 body.theme-dark .chat-container .chat-line-mod-button-label {
 	font-size: 16px;
