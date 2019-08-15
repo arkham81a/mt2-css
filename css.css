@@ -1,0 +1,180 @@
+.chat-wrapper {
+	font-family: sans-serif !important;
+	font-size: 12px;
+}
+
+.chat-line-wrapper {
+	padding: 5px 10px 7px !important
+}
+
+
+.chat-input-box {
+  height: 40px !important;
+}
+
+.emote-menu-button {
+  bottom: 0px !important;
+}
+
+.chat-line-wrapper img.chat-line-badge {
+	margin: 0 3px -2px 0 !important;
+}
+.chat-line-wrapper img.chat-line-badge:last-child {
+	margin: 0 0 -2px 0 !important;
+}
+
+
+.chat-line:nth-child(2n+0) {
+	background: rgba(255, 255, 255, 0.05) !important;
+}
+.chat-line {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid #000;
+}
+
+.chat-line-username {
+	font-weight: 700;
+	-webkit-text-stroke: 0.2px black;
+}
+body.theme-dark .chat-container .chat-line-mod-button-label {
+	font-size: 16px;
+	margin-right: 3px;
+}
+
+.chat-line-wrapper img.emote {
+	/*max-height: 100%;*/
+}
+
+body.theme-dark .emote-menu {
+	padding: 0;
+	background-color: hsla(0, 0%, 25%, 0.95);
+	height: 60%;
+	width: auto;
+	left: 10px;
+	right: 10px;
+	bottom: calc(4em + 10px);
+}
+
+.emote-search {
+	position: relative;
+	top: 18px;
+}
+
+.emote-menu-list {
+	background-color: hsla(0, 0%, 16%, 0.6);
+	padding: 4px;
+}
+
+.emote-menu-list > div {
+	min-width: 28px;
+	max-width: 56px;
+	padding: 2px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chat-line-mod-button-label {
+	display: inline-block;
+	width: 16px;
+}
+
+.chat-paused-indicator {
+	animation: 300ms chat-paused-indicator-show;
+	overflow: hidden;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	right: 0px;
+	left: 0px;
+	width: auto !important;
+	padding-left: 6px !important;
+}
+
+.chat-paused-indicator:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(
+			-62.5deg,
+			hsla(0, 0%, 50%, 0.0) 45%,
+			hsla(0, 0%, 50%, 0.25) 50%,
+			hsla(0, 0%, 50%, 0.0) 55%
+		);
+	background-size: 300%;
+	animation: 2s grade-swipe infinite linear;
+}
+
+.chat-paused-indicator.ng-hide {
+	display: block !important;
+	animation: 300ms chat-paused-indicator-hide;
+	bottom: -25px;
+}
+
+.chat-line-mod-button-label {
+	display: inline-block;
+	width: 16px;
+}
+
+@keyframes chat-paused-indicator-show {
+	from {
+		bottom: -25px;
+	}
+	to {
+		bottom: 0px;
+	}
+}
+
+@keyframes chat-paused-indicator-hide {
+	from {
+		opacity: 1;
+		bottom: 0px;
+	}
+	50% {
+		opacity: 0;
+	}
+	to {
+		bottom: -25px;
+	}
+}
+
+@keyframes grade-swipe {
+	from {
+		background-position: 100%;
+	}
+	to {
+		background-position: 0%;
+	}
+}
+
+md-toast {
+  display: none !important;
+}
+
+.chat-line-wrapper.chat-line-deleted .chat-line-text{
+    text-decoration: none !important;
+}
+
+.md-panel.autocomplete-panel .autocomplete-panel-content .md-button{
+    line-height: 22px !important;	
+}
+
+.chat-line-wrapper.system-msg,
+.chat-line-wrapper.system-msg .chat-line-text,
+.chat-line-wrapper.system-msg .chat-line-time{
+    font-style: italic !important;
+    color: #838383 !important;
+}
+
+.md-panel.autocomplete-panel .autocomplete-panel-content .md-button,
+.md-panel.autocomplete-panel .autocomplete-panel-content ._md-button-wrap,
+.md-panel.autocomplete-panel .autocomplete-panel-content ._md-button-wrap .md-list-item:before,
+.md-panel.autocomplete-panel .autocomplete-panel-content ._md-button-wrap .md-list-item-inner:before{
+    font-size: 9pt !important;
+    max-height: 22px !important;
+    min-height: 10px !important;
+}
